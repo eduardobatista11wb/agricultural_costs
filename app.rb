@@ -1,6 +1,10 @@
-require_relative 'lib/operation'
-require_relative 'lib/fixedCost'
-require_relative 'lib/variableCost'
+require_relative 'lib/costs/operation'
+require_relative 'lib/costs/fixedCost'
+require_relative 'lib/costs/variableCost'
+require_relative 'lib/ui/main'
+
+
+Tk.mainloop
 
 area = 200
 productivity = 84
